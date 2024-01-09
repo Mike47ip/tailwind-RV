@@ -1,0 +1,125 @@
+import appartment1 from '../assets/images/appartment1.jpg';
+import appartment2 from '../assets/images/appartment2.jpg';
+import appartment3 from '../assets/images/appartment3.jpg';
+import appartment4 from '../assets/images/appartment4.jpg';
+import appartment5 from '../assets/images/appartment5.jpg';
+import appartment6 from '../assets/images/appartment6.jpg';
+import appartment7 from '../assets/images/appartment7.jpg';
+import appartment8 from '../assets/images/appartment8.jpg';
+
+const cardData = [
+  {
+    image: appartment1,
+    tags: ['Instant Book', 'Self Checkin'],
+    name: 'Appartment Name',
+    rating: 4.23,
+    location: 'India',
+    details: '3 bathtubs, 2 people, 3-4 guests',
+    price: '$2,000 /n',
+  },
+  {
+    image: appartment2,
+    tags: ['Instant Book', 'Self Checkin'],
+    name: 'Appartment Name',
+    rating: 4.23,
+    location: 'India',
+    details: '3 bathtubs, 2 people, 3-4 guests',
+    price: '$2,000 /n',
+  },  {
+    image: appartment3,
+    tags: ['Instant Book', 'Self Checkin'],
+    name: 'Appartment Name',
+    rating: 4.23,
+    location: 'India',
+    details: '3 bathtubs, 2 people, 3-4 guests',
+    price: '$2,000 /n',
+  },  {
+    image: appartment4,
+    tags: ['Instant Book', 'Self Checkin'],
+    name: 'Appartment Name',
+    rating: 4.23,
+    location: 'India',
+    details: '3 bathtubs, 2 people, 3-4 guests',
+    price: '$2,000 /n',
+  },  {
+    image: appartment5,
+    tags: ['Instant Book', 'Self Checkin'],
+    name: 'Appartment Name',
+    rating: 4.23,
+    location: 'India',
+    details: '3 bathtubs, 2 people, 3-4 guests',
+    price: '$2,000 /n',
+  },  {
+    image: appartment6,
+    tags: ['Instant Book', 'Self Checkin'],
+    name: 'Appartment Name',
+    rating: 4.23,
+    location: 'India',
+    details: '3 bathtubs, 2 people, 3-4 guests',
+    price: '$2,000 /n',
+  },  {
+    image: appartment7,
+    tags: ['Instant Book', 'Self Checkin'],
+    name: 'Appartment Name',
+    rating: 4.23,
+    location: 'India',
+    details: '3 bathtubs, 2 people, 3-4 guests',
+    price: '$2,000 /n',
+  },
+  {
+    image: appartment8,
+    tags: ['Instant Book', 'Self Checkin'],
+    name: 'Appartment Name',
+    rating: 4.23,
+    location: 'India',
+    details: '3 bathtubs, 2 people, 3-4 guests',
+    price: '$2,000 /n',
+  },
+  // Add more objects for other cards
+];
+
+const Card = () => {
+  return (
+    <>
+      <section className="CardWrapper grid gap-6 grid-cols-4 px-6">
+        {cardData.map((card, index) => (
+          <div key={index} className="Cards">
+            <img
+              className="object-cover h-54 rounded-xl"
+              src={card.image}
+              alt={`Appartment ${index + 1}`}
+            />
+            <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
+              {card.tags.map((tag, tagIndex) => (
+                <li key={tagIndex} className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+                  {tag}
+                </li>
+              ))}
+            </ul>
+            <div className="flex justify-between items-center px-2">
+              <p className="HouseName text-lg pt-2 uppercase font-semibold">
+                {card.name}
+              </p>
+              <span className="text-yellow-500 flex items-center">
+                <ion-icon name="star"></ion-icon>
+                <span className="text-black">{card.rating}</span>
+              </span>
+            </div>
+            <p className="text-xs px-2 text-gray-600">Location: {card.location}</p>
+            <div className="flex justify-between mt-6 items-center px-2">
+              <span className="roomSpec flex justify-center items-center p-1 border border-gray-300 rounded-2xl gap-1">
+                <ion-icon className="material-symbols-outlined text-6xl" name="bed"></ion-icon>
+                {card.details}
+              </span>
+              <p className="prices font-semibold">
+                {card.price}
+              </p>
+            </div>
+          </div>
+        ))}
+      </section>
+    </>
+  );
+};
+
+export default Card;

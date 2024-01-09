@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+.TabsWrapper::-webkit-scrollbar {
+  height: 4px;
+  display: none;
+  /* width: 10px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+
+/* MEDIA QUERY*/
+@media (max-width: 1172px) {
+  .Icon {
+    display: none;
+    /* Add more styles as needed */
+  }
+}
+
+@media (max-width: 758px) {
+  .NavContainer{
+    display: none;
+  }
+}
