@@ -10,7 +10,7 @@ import appartment8 from "../assets/images/appartment8.jpg";
 const Card = () => {
  return (
   <>
-   <section className="CardWrapper grid gap-6 grid-cols-4 px-6">
+   <section className="CardWrapper grid gap-6 px-6 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 py-1">
     <div className="Cards">
      <img
       className="object-cover h-54 rounded-xl"
@@ -18,15 +18,15 @@ const Card = () => {
       alt="Appartments"
      />
      <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
        Instant Book
       </li>
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
-       Selft Checkin
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
+       Self Checkin
       </li>
      </ul>
      <div className="flex justify-between items-center px-2">
-      <p className="HouseName text-lg pt-2 uppercase font-semibold">
+      <p className="HouseName text-2xl md:text-lg pt-2 uppercase font-semibold">
        House Name
       </p>
       <span className="text-yellow-500 flex items-center">
@@ -57,15 +57,15 @@ const Card = () => {
       alt="Appartments"
      />
      <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
        Instant Book
       </li>
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
-       Selft Checkin
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
+       Self Checkin
       </li>
      </ul>
      <div className="flex justify-between items-center px-2">
-      <p className="HouseName text-lg pt-2 uppercase font-semibold">
+      <p className="HouseName text-2xl md:text-lg pt-2 uppercase font-semibold">
        House Name
       </p>
       <span className="text-yellow-500 flex items-center">
@@ -96,15 +96,15 @@ const Card = () => {
       alt="Appartments"
      />
      <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
        Instant Book
       </li>
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
-       Selft Checkin
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
+       Self Checkin
       </li>
      </ul>
      <div className="flex justify-between items-center px-2">
-      <p className="HouseName text-lg pt-2 uppercase font-semibold">
+      <p className="HouseName text-2xl md:text-lg pt-2 uppercase font-semibold">
        House Name
       </p>
       <span className="text-yellow-500 flex items-center">
@@ -135,15 +135,15 @@ const Card = () => {
       alt="Appartments"
      />
      <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
        Instant Book
       </li>
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
-       Selft Checkin
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
+       Self Checkin
       </li>
      </ul>
      <div className="flex justify-between items-center px-2">
-      <p className="HouseName text-lg pt-2 uppercase font-semibold">
+      <p className="HouseName text-2xl md:text-lg pt-2 uppercase font-semibold">
        House Name
       </p>
       <span className="text-yellow-500 flex items-center">
@@ -174,15 +174,15 @@ const Card = () => {
       alt="Appartments"
      />
      <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
        Instant Book
       </li>
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
-       Selft Checkin
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
+       Self Checkin
       </li>
      </ul>
      <div className="flex justify-between items-center px-2">
-      <p className="HouseName text-lg pt-2 uppercase font-semibold">
+      <p className="HouseName text-2xl md:text-lg pt-2 uppercase font-semibold">
        House Name
       </p>
       <span className="text-yellow-500 flex items-center">
@@ -213,15 +213,15 @@ const Card = () => {
       alt="Appartments"
      />
      <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
        Instant Book
       </li>
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
-       Selft Checkin
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
+       Self Checkin
       </li>
      </ul>
      <div className="flex justify-between items-center px-2">
-      <p className="HouseName text-lg pt-2 uppercase font-semibold">
+      <p className="HouseName text-2xl md:text-lg pt-2 uppercase font-semibold">
        House Name
       </p>
       <span className="text-yellow-500 flex items-center">
@@ -252,15 +252,15 @@ const Card = () => {
       alt="Appartments"
      />
      <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
        Instant Book
       </li>
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
-       Selft Checkin
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
+       Self Checkin
       </li>
      </ul>
      <div className="flex justify-between items-center px-2">
-      <p className="HouseName text-lg pt-2 uppercase font-semibold">
+      <p className="HouseName text-2xl md:text-lg pt-2 uppercase font-semibold">
        House Name
       </p>
       <span className="text-yellow-500 flex items-center">
@@ -291,15 +291,15 @@ const Card = () => {
       alt="Appartments"
      />
      <ul className="ImageTab flex gap-2 list-none text-sm mt-3">
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
        Instant Book
       </li>
-      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-xs">
-       Selft Checkin
+      <li className="bg-gray-200 px-2 py-1 rounded-2xl text-sm md:text-xs">
+       Self Checkin
       </li>
      </ul>
      <div className="flex justify-between items-center px-2">
-      <p className="HouseName text-lg pt-2 uppercase font-semibold">
+      <p className="HouseName text-2xl md:text-lg pt-2 uppercase font-semibold">
        House Name
       </p>
       <span className="text-yellow-500 flex items-center">

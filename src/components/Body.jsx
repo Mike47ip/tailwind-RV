@@ -4,7 +4,7 @@ const Body = () => {
  return (
   <>
    <section className=" bg-red-50">
-    <div className="TabsWrapper flex justify-between items-center py-7 text-xs sm:overflow-x-auto sm:whitespace-nowrap">
+    <div className="TabsWrapper flex justify-between items-center py-7 text-xs overflow-x-auto whitespace-nowrap">
      <div className="Tab1 flex gap-8 px-3  list-none">
       <li className="bg-white rounded-3xl border border-gray-300 px-4 py-2 font-inherit font-medium cursor-pointer transition transform hover:bg-red-100 hover:border-red-500 hover:-translate-y-0.5 active:bg-red-400 focus:bg-red-500">
        All
