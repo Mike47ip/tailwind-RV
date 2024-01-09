@@ -41,7 +41,6 @@ export const Navbar = () => {
      </div>
 
      <div className=" p-6 bg-white rounded-full max-w-6xl">
-      {/* Search input and button */}
       <div className="flex text-sm items-center border border-gray-300 rounded-full">
        <input
         type="text"
@@ -124,7 +123,6 @@ export const Navbar = () => {
     </div>
     {isMenuOpen && (
      <div className="Dropdownmenu bg-white p-4 transform transition-all duration-300 md:hidden grid grid-cols-2 justify-center items-center">
-      {/* Add your menu items here */}
       <div className="flex items-center p-2 gap-2 cursor-pointer hover:text-red-400" onClick={closeMenu}>
        <p>Hotel</p>
        <span className="material-symbols-outlined text-gray-600">bed</span>
@@ -151,8 +149,6 @@ export const Navbar = () => {
        <p>House</p>
        <span className="material-symbols-outlined text-gray-600">house</span>
       </div>
-
-      {/* ... */}
      </div>
     )}
    </section>
